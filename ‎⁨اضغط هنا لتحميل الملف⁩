@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FlexZone - Spor salonu ürünleri, protein tozları, spor ekipmanları ve daha fazlası. Uygun fiyatlar ve hızlı teslimat.">
+    <meta name="keywords" content="protein tozu, sporcu besinleri, fitness ekipmanları, bcaa, kreatin, pre-workout, spor salonu ürünleri, FlexZone">
+    <meta name="author" content="FlexZone">
+    <title>FlexZone | Sporcu Besinleri ve Fitness Ürünleri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #0d0d0d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .search-bar {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .search-bar input {
+            width: 60%;
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #0d0d0d;
+            padding-bottom: 5px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: calc(25% - 20px);
+            box-sizing: border-box;
+        }
+        .product img {
+            max-width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .product h3 {
+            margin: 10px 0 5px;
+            font-size: 1.1em;
+        }
+        .product p {
+            margin: 0;
+        }
+        .contact {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .contact a {
+            background-color: #e1306c;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1em;
+        }
+        footer {
+            background-color: #0d0d0d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        @media (max-width: 992px) {
+            .product {
+                width: calc(33% - 20px);
+            }
+        }
+        @media (max-width: 768px) {
+            .product {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .product {
+                width: 100%;
+            }
+            .search-bar input {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FlexZone</h1>
+        <p>Sporcu Besinleri ve Fitness Ürünleri Mağazası</p>
+    </header>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Ürün ara... (örnek: protein, kreatin)">
+        </div>
+
+        <div class="section-title">🏋️‍♂️ Popüler Ürünler</div>
+        <div class="products">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1603395093275-3d08c54e0772" alt="Whey Protein">
+                <h3>Whey Protein</h3>
+                <p>Fiyat: 220₺</p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1600185365483-26d7b80a2b22" alt="BCAA Tozu">
+                <h3>BCAA Tozu</h3>
+                <p>Fiyat: 150₺</p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1599058917212-d750089bc55f" alt="Kreatin Monohidrat">
+                <h3>Kreatin Monohidrat</h3>
+                <p>Fiyat: 130₺</p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1611078489935-0cb964de46d7" alt="Pre-workout">
+                <h3>Pre-workout Enerji</h3>
+                <p>Fiyat: 180₺</p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1571019613914-85f342c1d4a7" alt="Atlama İpi">
+                <h3>Atlama İpi</h3>
+                <p>Fiyat: 45₺</p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1619451401543-5e8271e87d86" alt="Spor Eldiveni">
+                <h3>Spor Eldiveni</h3>
+                <p>Fiyat: 80₺</p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1603393241524-3b60ca4f9f34" alt="Fitness Mat">
+                <h3>Fitness Mat</h3>
+                <p>Fiyat: 120₺</p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba" alt="Shaker">
+                <h3>Shaker (Protein Karıştırıcı)</h3>
+                <p>Fiyat: 60₺</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <p>📩 Sipariş ve iletişim için Instagram:</p>
+            <a href="https://instagram.com/4NNUC" target="_blank">@4NNUC</a>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 FlexZone. Tüm hakları saklıdır.
+    </footer>
+</body>
+</html>
